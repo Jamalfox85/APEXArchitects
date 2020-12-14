@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apex Architects</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div class="header">
+        <h1>APEX ARCHITECTS</h1>
+    </div>
+    <div class="main">
+        <nav class="nav">
+            <a href="#home">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="slide1" id="home">
+            <img src="images/home.jpg">
+            <blockquote>“A doctor can bury his mistakes, but an architect can only advise his clients to plant vines.” <br/> – Frank Lloyd Wright</blockquote>
+        </div>
+        <div class="slide2" id="projects">
+            <h1>Projects</h1>
+        </div>
+        <div class="slide3" id="about">
+            <h1>About</h1>
+            <p>At APEX Architects we transpose imagination into steel and provide 
+                you a cleanly designed building that's unforgettable. APEX was started in 2018 by two sisters with a passion for combining the 
+                creative with the architectural. Both artists and engineers, you can be assured
+                our buildings will leave an impression upon any guest you choose to open your doors to. We specialize in residential buildings, but have extensive experience in the commercial
+                landscape as well. <a href="#contact">Contact</a> a member from our team for the home of your dreams,
+                or the building you never knew you needed.
+            </p>
+            <img src="images/about.jpg">
+        </div>
+        <div class="slide4" id="contact">
+            <h1>Contact</h1>
+            <div class="card">
+                <form id="contactform" action="" method="post">
+                    <h4>Contact us today, and get reply within 24 hours!</h4>
+                    <fieldset>
+                        <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+                    </fieldset>
+                    <fieldset>
+                        <input placeholder="Your Email Adress" type="email" tabindex="2" required>
+                    </fieldset>
+                    <fieldset>
+                        <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+                    </fieldset>
+                    <fieldset>
+                        <input placeholder="Your Web Site starts with http://" type="url" tabindex="4" required>
+                    </fieldset>
+                    <fieldset>
+                        <textarea place="Type your Message Here...." tabindex="5" required></textarea>
+                    </fieldset>
+                    <fieldset>
+                        <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                    </fieldset>
+                </form>
+            </div>
+            <img src="images/contact.jpg">
+        </div>
+    </div>
+</body>
+</html>
